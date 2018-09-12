@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ClassGuessingGame</string>
+    <string name="start_game">Start Game</string>
+    <string name="submit_guess">Submit Guess</string>
+    <string name="correct_guess">You\'re right!</string>
+    <string name="incorrect_guess">Nope, try again!</string>
+    <string name="guess_again">Guess Again</string>
+    <string name="start_over">Start Over</string>
+</resources>
