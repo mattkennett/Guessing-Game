@@ -22,8 +22,10 @@
         android:id="@+id/submitGuessButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
         android:onClick="getGuess"
         android:text="@string/submit_guess"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/userGuess"
+        app:layout_constraintStart_toEndOf="@+id/userGuess" />
 </android.support.constraint.ConstraintLayout>

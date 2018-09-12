@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import java.util.Random
 
@@ -20,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
     fun startGame(view: View) {
         val theAnswer: Int = (1..5).random()
-
+        Log.d("MPK_UTILITY", "The Answer: " + theAnswer.toString())
         val sharedPreferences =
                 getSharedPreferences(SHARED_PREFS_FILE, Context.MODE_PRIVATE)
 

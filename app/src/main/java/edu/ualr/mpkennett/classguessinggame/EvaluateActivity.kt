@@ -12,6 +12,12 @@ class EvaluateActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        setContentView(R.layout.activity_evaluate)
+    }
+
+    override fun onResume() {
+        super.onResume()
+
         val resultTextView: TextView =
                 findViewById(R.id.resultTextView)
         val nextButton : Button =
@@ -46,6 +52,5 @@ class EvaluateActivity : AppCompatActivity() {
                 startActivity(intent)
             }
         }
-        setContentView(R.layout.activity_evaluate)
     }
 }
